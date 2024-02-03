@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFDFD9FD2B6E719900C8336E /* Bedside_HubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFD9FC2B6E719900C8336E /* Bedside_HubApp.swift */; };
+		CFDFD9FF2B6E719900C8336E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFD9FE2B6E719900C8336E /* ContentView.swift */; };
+		CFDFDA012B6E719B00C8336E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDFDA002B6E719B00C8336E /* Assets.xcassets */; };
+		CFDFDA042B6E719B00C8336E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDFDA032B6E719B00C8336E /* Preview Assets.xcassets */; };
+		CFDFDA0E2B6E719B00C8336E /* Bedside_HubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFDA0D2B6E719B00C8336E /* Bedside_HubTests.swift */; };
+		CFDFDA182B6E719B00C8336E /* Bedside_HubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFDA172B6E719B00C8336E /* Bedside_HubUITests.swift */; };
+		CFDFDA1A2B6E719B00C8336E /* Bedside_HubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFDA192B6E719B00C8336E /* Bedside_HubUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFDFDA0A2B6E719B00C8336E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDFD9F12B6E719900C8336E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDFD9F82B6E719900C8336E;
+			remoteInfo = "Bedside Hub";
+		};
+		CFDFDA142B6E719B00C8336E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDFD9F12B6E719900C8336E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDFD9F82B6E719900C8336E;
+			remoteInfo = "Bedside Hub";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFDFD9F92B6E719900C8336E /* Bedside Hub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bedside Hub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDFD9FC2B6E719900C8336E /* Bedside_HubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bedside_HubApp.swift; sourceTree = "<group>"; };
+		CFDFD9FE2B6E719900C8336E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFDFDA002B6E719B00C8336E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFDFDA032B6E719B00C8336E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFDFDA092B6E719B00C8336E /* Bedside HubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bedside HubTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDFDA0D2B6E719B00C8336E /* Bedside_HubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bedside_HubTests.swift; sourceTree = "<group>"; };
+		CFDFDA132B6E719B00C8336E /* Bedside HubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bedside HubUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDFDA172B6E719B00C8336E /* Bedside_HubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bedside_HubUITests.swift; sourceTree = "<group>"; };
+		CFDFDA192B6E719B00C8336E /* Bedside_HubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bedside_HubUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFDFD9F62B6E719900C8336E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDFDA062B6E719B00C8336E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDFDA102B6E719B00C8336E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFDFD9F02B6E719900C8336E = {
+			isa = PBXGroup;
+			children = (
+				CFDFD9FB2B6E719900C8336E /* Bedside Hub */,
+				CFDFDA0C2B6E719B00C8336E /* Bedside HubTests */,
+				CFDFDA162B6E719B00C8336E /* Bedside HubUITests */,
+				CFDFD9FA2B6E719900C8336E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFDFD9FA2B6E719900C8336E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFDFD9F92B6E719900C8336E /* Bedside Hub.app */,
+				CFDFDA092B6E719B00C8336E /* Bedside HubTests.xctest */,
+				CFDFDA132B6E719B00C8336E /* Bedside HubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFDFD9FB2B6E719900C8336E /* Bedside Hub */ = {
+			isa = PBXGroup;
+			children = (
+				CFDFD9FC2B6E719900C8336E /* Bedside_HubApp.swift */,
+				CFDFD9FE2B6E719900C8336E /* ContentView.swift */,
+				CFDFDA002B6E719B00C8336E /* Assets.xcassets */,
+				CFDFDA022B6E719B00C8336E /* Preview Content */,
+			);
+			path = "Bedside Hub";
+			sourceTree = "<group>";
+		};
+		CFDFDA022B6E719B00C8336E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CFDFDA032B6E719B00C8336E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFDFDA0C2B6E719B00C8336E /* Bedside HubTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFDFDA0D2B6E719B00C8336E /* Bedside_HubTests.swift */,
+			);
+			path = "Bedside HubTests";
+			sourceTree = "<group>";
+		};
+		CFDFDA162B6E719B00C8336E /* Bedside HubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFDFDA172B6E719B00C8336E /* Bedside_HubUITests.swift */,
+				CFDFDA192B6E719B00C8336E /* Bedside_HubUITestsLaunchTests.swift */,
+			);
+			path = "Bedside HubUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFDFD9F82B6E719900C8336E /* Bedside Hub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDFDA1D2B6E719B00C8336E /* Build configuration list for PBXNativeTarget "Bedside Hub" */;
+			buildPhases = (
+				CFDFD9F52B6E719900C8336E /* Sources */,
+				CFDFD9F62B6E719900C8336E /* Frameworks */,
+				CFDFD9F72B6E719900C8336E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bedside Hub";
+			productName = "Bedside Hub";
+			productReference = CFDFD9F92B6E719900C8336E /* Bedside Hub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFDFDA082B6E719B00C8336E /* Bedside HubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDFDA202B6E719B00C8336E /* Build configuration list for PBXNativeTarget "Bedside HubTests" */;
+			buildPhases = (
+				CFDFDA052B6E719B00C8336E /* Sources */,
+				CFDFDA062B6E719B00C8336E /* Frameworks */,
+				CFDFDA072B6E719B00C8336E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFDFDA0B2B6E719B00C8336E /* PBXTargetDependency */,
+			);
+			name = "Bedside HubTests";
+			productName = "Bedside HubTests";
+			productReference = CFDFDA092B6E719B00C8336E /* Bedside HubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFDFDA122B6E719B00C8336E /* Bedside HubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDFDA232B6E719B00C8336E /* Build configuration list for PBXNativeTarget "Bedside HubUITests" */;
+			buildPhases = (
+				CFDFDA0F2B6E719B00C8336E /* Sources */,
+				CFDFDA102B6E719B00C8336E /* Frameworks */,
+				CFDFDA112B6E719B00C8336E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFDFDA152B6E719B00C8336E /* PBXTargetDependency */,
+			);
+			name = "Bedside HubUITests";
+			productName = "Bedside HubUITests";
+			productReference = CFDFDA132B6E719B00C8336E /* Bedside HubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFDFD9F12B6E719900C8336E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					CFDFD9F82B6E719900C8336E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					CFDFDA082B6E719B00C8336E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CFDFD9F82B6E719900C8336E;
+					};
+					CFDFDA122B6E719B00C8336E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CFDFD9F82B6E719900C8336E;
+					};
+				};
+			};
+			buildConfigurationList = CFDFD9F42B6E719900C8336E /* Build configuration list for PBXProject "Bedside Hub" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFDFD9F02B6E719900C8336E;
+			productRefGroup = CFDFD9FA2B6E719900C8336E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFDFD9F82B6E719900C8336E /* Bedside Hub */,
+				CFDFDA082B6E719B00C8336E /* Bedside HubTests */,
+				CFDFDA122B6E719B00C8336E /* Bedside HubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFDFD9F72B6E719900C8336E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDFDA042B6E719B00C8336E /* Preview Assets.xcassets in Resources */,
+				CFDFDA012B6E719B00C8336E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDFDA072B6E719B00C8336E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDFDA112B6E719B00C8336E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFDFD9F52B6E719900C8336E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDFD9FF2B6E719900C8336E /* ContentView.swift in Sources */,
+				CFDFD9FD2B6E719900C8336E /* Bedside_HubApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDFDA052B6E719B00C8336E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDFDA0E2B6E719B00C8336E /* Bedside_HubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDFDA0F2B6E719B00C8336E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDFDA182B6E719B00C8336E /* Bedside_HubUITests.swift in Sources */,
+				CFDFDA1A2B6E719B00C8336E /* Bedside_HubUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFDFDA0B2B6E719B00C8336E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDFD9F82B6E719900C8336E /* Bedside Hub */;
+			targetProxy = CFDFDA0A2B6E719B00C8336E /* PBXContainerItemProxy */;
+		};
+		CFDFDA152B6E719B00C8336E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDFD9F82B6E719900C8336E /* Bedside Hub */;
+			targetProxy = CFDFDA142B6E719B00C8336E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CFDFDA1B2B6E719B00C8336E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFDFDA1C2B6E719B00C8336E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFDFDA1E2B6E719B00C8336E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bedside Hub/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "outwardlymild.Bedside-Hub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFDFDA1F2B6E719B00C8336E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bedside Hub/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "outwardlymild.Bedside-Hub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFDFDA212B6E719B00C8336E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "outwardlymild.Bedside-HubTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bedside Hub.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bedside Hub";
+			};
+			name = Debug;
+		};
+		CFDFDA222B6E719B00C8336E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "outwardlymild.Bedside-HubTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bedside Hub.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bedside Hub";
+			};
+			name = Release;
+		};
+		CFDFDA242B6E719B00C8336E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "outwardlymild.Bedside-HubUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bedside Hub";
+			};
+			name = Debug;
+		};
+		CFDFDA252B6E719B00C8336E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "outwardlymild.Bedside-HubUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bedside Hub";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFDFD9F42B6E719900C8336E /* Build configuration list for PBXProject "Bedside Hub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDFDA1B2B6E719B00C8336E /* Debug */,
+				CFDFDA1C2B6E719B00C8336E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFDFDA1D2B6E719B00C8336E /* Build configuration list for PBXNativeTarget "Bedside Hub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDFDA1E2B6E719B00C8336E /* Debug */,
+				CFDFDA1F2B6E719B00C8336E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFDFDA202B6E719B00C8336E /* Build configuration list for PBXNativeTarget "Bedside HubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDFDA212B6E719B00C8336E /* Debug */,
+				CFDFDA222B6E719B00C8336E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFDFDA232B6E719B00C8336E /* Build configuration list for PBXNativeTarget "Bedside HubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDFDA242B6E719B00C8336E /* Debug */,
+				CFDFDA252B6E719B00C8336E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFDFD9F12B6E719900C8336E /* Project object */;
+}
