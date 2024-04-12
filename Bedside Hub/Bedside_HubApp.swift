@@ -12,6 +12,8 @@ struct Bedside_HubApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            .persistentSystemOverlays(.hidden)
+//            .aspectRatio(contentMode: ContentMode.fit)
         }
     }
 }
