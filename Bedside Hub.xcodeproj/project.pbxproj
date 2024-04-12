@@ -7,6 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF1B9AEF2B6FBAB900A7585E /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1B9AEE2B6FBAB900A7585E /* SoundManager.swift */; };
+		CF334BAB2B6F0945005A3B5C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF334BAA2B6F0945005A3B5C /* SettingsView.swift */; };
+		CF334BAD2B6F0B65005A3B5C /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF334BAC2B6F0B65005A3B5C /* SettingsManager.swift */; };
+		CF334BAF2B6F1446005A3B5C /* SoundSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF334BAE2B6F1446005A3B5C /* SoundSelectionView.swift */; };
+		CF334BB12B6F2F0A005A3B5C /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF334BB02B6F2F0A005A3B5C /* ImageManager.swift */; };
+		CF334BB32B6F4231005A3B5C /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF334BB22B6F4231005A3B5C /* TimerManager.swift */; };
+		CF72341B2B82320F00F47FC5 /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF72341A2B82320F00F47FC5 /* DateView.swift */; };
+		CF72341D2B82324D00F47FC5 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF72341C2B82324D00F47FC5 /* WeatherView.swift */; };
+		CF8841AD2B6FF47500A55D6F /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8841AC2B6FF47500A55D6F /* ClockView.swift */; };
+		CF8EF6412B702E1000915B8E /* Dreaming.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF8EF6402B702E1000915B8E /* Dreaming.mp3 */; };
+		CF8EF6432B702E2200915B8E /* Stream.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF8EF6422B702E2200915B8E /* Stream.mp3 */; };
+		CF8EF6452B702E2C00915B8E /* River.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF8EF6442B702E2C00915B8E /* River.mp3 */; };
+		CF8EF6482B702E4D00915B8E /* Flute.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF8EF6472B702E4D00915B8E /* Flute.mp3 */; };
+		CF8EF64A2B702E5A00915B8E /* Chords.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF8EF6492B702E5A00915B8E /* Chords.mp3 */; };
+		CF8EF64C2B702E8100915B8E /* Minor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF8EF64B2B702E8100915B8E /* Minor.mp3 */; };
+		CF8EF64E2B702EC500915B8E /* Space.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF8EF64D2B702EC500915B8E /* Space.mp3 */; };
+		CF8EF6502B702ED600915B8E /* Farm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF8EF64F2B702ED600915B8E /* Farm.mp3 */; };
+		CF8EF6522B702EE100915B8E /* Piano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF8EF6512B702EE100915B8E /* Piano.mp3 */; };
+		CF8EF6542B702EFD00915B8E /* Forest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF8EF6532B702EFD00915B8E /* Forest.mp3 */; };
+		CF8EF6562B702F0A00915B8E /* Birds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF8EF6552B702F0A00915B8E /* Birds.mp3 */; };
+		CF8EF6582B702F1800915B8E /* Piano2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF8EF6572B702F1800915B8E /* Piano2.mp3 */; };
+		CF8EF65A2B702F2B00915B8E /* Bells.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF8EF6592B702F2B00915B8E /* Bells.mp3 */; };
+		CF8EF65C2B702F5300915B8E /* RunningWater.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF8EF65B2B702F5300915B8E /* RunningWater.mp3 */; };
+		CF8EF65E2B702F5800915B8E /* ForestRain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF8EF65D2B702F5800915B8E /* ForestRain.mp3 */; };
+		CF8EF6602B702F6900915B8E /* EveningBirds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF8EF65F2B702F6900915B8E /* EveningBirds.mp3 */; };
+		CF8EF6622B703C9500915B8E /* SoundSelectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8EF6612B703C9500915B8E /* SoundSelectionViewModel.swift */; };
+		CF9E35DD2B70094900DDAD76 /* LightRain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF9E35DB2B70094900DDAD76 /* LightRain.mp3 */; };
+		CF9E35DE2B70094900DDAD76 /* Uplifting.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF9E35DC2B70094900DDAD76 /* Uplifting.mp3 */; };
 		CFDFD9FD2B6E719900C8336E /* Bedside_HubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFD9FC2B6E719900C8336E /* Bedside_HubApp.swift */; };
 		CFDFD9FF2B6E719900C8336E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFD9FE2B6E719900C8336E /* ContentView.swift */; };
 		CFDFDA012B6E719B00C8336E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDFDA002B6E719B00C8336E /* Assets.xcassets */; };
@@ -14,6 +42,20 @@
 		CFDFDA0E2B6E719B00C8336E /* Bedside_HubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFDA0D2B6E719B00C8336E /* Bedside_HubTests.swift */; };
 		CFDFDA182B6E719B00C8336E /* Bedside_HubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFDA172B6E719B00C8336E /* Bedside_HubUITests.swift */; };
 		CFDFDA1A2B6E719B00C8336E /* Bedside_HubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFDA192B6E719B00C8336E /* Bedside_HubUITestsLaunchTests.swift */; };
+		CFDFDA272B6EA36400C8336E /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFDA262B6EA36400C8336E /* WeatherService.swift */; };
+		CFDFDA292B6EB52B00C8336E /* WeatherConditionMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDFDA282B6EB52B00C8336E /* WeatherConditionMapper.swift */; };
+		CFDFDA2C2B6EBFC600C8336E /* OpenMeteoSdk in Frameworks */ = {isa = PBXBuildFile; productRef = CFDFDA2B2B6EBFC600C8336E /* OpenMeteoSdk */; };
+		CFFA13D12B7AD70D006D5B42 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = CFFA13D02B7AD70D006D5B42 /* Collections */; };
+		CFFA13D32B7AFEFA006D5B42 /* Game.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CFFA13D22B7AFEFA006D5B42 /* Game.mp3 */; };
+		CFFA13D62B7AFF28006D5B42 /* City.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CFFA13D52B7AFF28006D5B42 /* City.mp3 */; };
+		CFFA13D82B7AFF3E006D5B42 /* Cafe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CFFA13D72B7AFF3E006D5B42 /* Cafe.mp3 */; };
+		CFFA13DA2B7AFF5E006D5B42 /* Office.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CFFA13D92B7AFF5E006D5B42 /* Office.mp3 */; };
+		CFFA13DC2B7AFF6C006D5B42 /* Snoring.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CFFA13DB2B7AFF6C006D5B42 /* Snoring.mp3 */; };
+		CFFA13DE2B7AFF76006D5B42 /* AirConditioner.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CFFA13DD2B7AFF76006D5B42 /* AirConditioner.mp3 */; };
+		CFFA13E02B7AFF9B006D5B42 /* Fireplace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CFFA13DF2B7AFF9B006D5B42 /* Fireplace.mp3 */; };
+		CFFA13E22B7AFFA4006D5B42 /* Wind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CFFA13E12B7AFFA4006D5B42 /* Wind.mp3 */; };
+		CFFA13E42B7AFFC0006D5B42 /* Crickets.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CFFA13E32B7AFFC0006D5B42 /* Crickets.mp3 */; };
+		CFFA13E62B7B0019006D5B42 /* Nightscape.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CFFA13E52B7B0019006D5B42 /* Nightscape.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +76,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF1B9AEE2B6FBAB900A7585E /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		CF334BAA2B6F0945005A3B5C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CF334BAC2B6F0B65005A3B5C /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
+		CF334BAE2B6F1446005A3B5C /* SoundSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundSelectionView.swift; sourceTree = "<group>"; };
+		CF334BB02B6F2F0A005A3B5C /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		CF334BB22B6F4231005A3B5C /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
+		CF72341A2B82320F00F47FC5 /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
+		CF72341C2B82324D00F47FC5 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		CF72341E2B8234DC00F47FC5 /* Bedside-Hub-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Bedside-Hub-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CF8841AC2B6FF47500A55D6F /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		CF8EF6402B702E1000915B8E /* Dreaming.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dreaming.mp3; sourceTree = "<group>"; };
+		CF8EF6422B702E2200915B8E /* Stream.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Stream.mp3; sourceTree = "<group>"; };
+		CF8EF6442B702E2C00915B8E /* River.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = River.mp3; sourceTree = "<group>"; };
+		CF8EF6472B702E4D00915B8E /* Flute.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Flute.mp3; sourceTree = "<group>"; };
+		CF8EF6492B702E5A00915B8E /* Chords.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Chords.mp3; sourceTree = "<group>"; };
+		CF8EF64B2B702E8100915B8E /* Minor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Minor.mp3; sourceTree = "<group>"; };
+		CF8EF64D2B702EC500915B8E /* Space.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Space.mp3; sourceTree = "<group>"; };
+		CF8EF64F2B702ED600915B8E /* Farm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Farm.mp3; sourceTree = "<group>"; };
+		CF8EF6512B702EE100915B8E /* Piano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Piano.mp3; sourceTree = "<group>"; };
+		CF8EF6532B702EFD00915B8E /* Forest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Forest.mp3; sourceTree = "<group>"; };
+		CF8EF6552B702F0A00915B8E /* Birds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Birds.mp3; sourceTree = "<group>"; };
+		CF8EF6572B702F1800915B8E /* Piano2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Piano2.mp3; sourceTree = "<group>"; };
+		CF8EF6592B702F2B00915B8E /* Bells.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bells.mp3; sourceTree = "<group>"; };
+		CF8EF65B2B702F5300915B8E /* RunningWater.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RunningWater.mp3; sourceTree = "<group>"; };
+		CF8EF65D2B702F5800915B8E /* ForestRain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ForestRain.mp3; sourceTree = "<group>"; };
+		CF8EF65F2B702F6900915B8E /* EveningBirds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = EveningBirds.mp3; sourceTree = "<group>"; };
+		CF8EF6612B703C9500915B8E /* SoundSelectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundSelectionViewModel.swift; sourceTree = "<group>"; };
+		CF9E35DB2B70094900DDAD76 /* LightRain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LightRain.mp3; sourceTree = "<group>"; };
+		CF9E35DC2B70094900DDAD76 /* Uplifting.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Uplifting.mp3; path = Sound/Texture/Uplifting.mp3; sourceTree = SOURCE_ROOT; };
 		CFDFD9F92B6E719900C8336E /* Bedside Hub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bedside Hub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFDFD9FC2B6E719900C8336E /* Bedside_HubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bedside_HubApp.swift; sourceTree = "<group>"; };
 		CFDFD9FE2B6E719900C8336E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +115,18 @@
 		CFDFDA132B6E719B00C8336E /* Bedside HubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bedside HubUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFDFDA172B6E719B00C8336E /* Bedside_HubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bedside_HubUITests.swift; sourceTree = "<group>"; };
 		CFDFDA192B6E719B00C8336E /* Bedside_HubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bedside_HubUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CFDFDA262B6EA36400C8336E /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		CFDFDA282B6EB52B00C8336E /* WeatherConditionMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherConditionMapper.swift; sourceTree = "<group>"; };
+		CFFA13D22B7AFEFA006D5B42 /* Game.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Game.mp3; sourceTree = "<group>"; };
+		CFFA13D52B7AFF28006D5B42 /* City.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = City.mp3; sourceTree = "<group>"; };
+		CFFA13D72B7AFF3E006D5B42 /* Cafe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Cafe.mp3; sourceTree = "<group>"; };
+		CFFA13D92B7AFF5E006D5B42 /* Office.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Office.mp3; sourceTree = "<group>"; };
+		CFFA13DB2B7AFF6C006D5B42 /* Snoring.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Snoring.mp3; sourceTree = "<group>"; };
+		CFFA13DD2B7AFF76006D5B42 /* AirConditioner.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AirConditioner.mp3; sourceTree = "<group>"; };
+		CFFA13DF2B7AFF9B006D5B42 /* Fireplace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fireplace.mp3; sourceTree = "<group>"; };
+		CFFA13E12B7AFFA4006D5B42 /* Wind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Wind.mp3; sourceTree = "<group>"; };
+		CFFA13E32B7AFFC0006D5B42 /* Crickets.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Crickets.mp3; sourceTree = "<group>"; };
+		CFFA13E52B7B0019006D5B42 /* Nightscape.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Nightscape.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +134,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFFA13D12B7AD70D006D5B42 /* Collections in Frameworks */,
+				CFDFDA2C2B6EBFC600C8336E /* OpenMeteoSdk in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,9 +156,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF8EF6462B702E4500915B8E /* Melodies */ = {
+			isa = PBXGroup;
+			children = (
+				CF8EF6492B702E5A00915B8E /* Chords.mp3 */,
+				CF8EF6512B702EE100915B8E /* Piano.mp3 */,
+				CF8EF6572B702F1800915B8E /* Piano2.mp3 */,
+				CF8EF6592B702F2B00915B8E /* Bells.mp3 */,
+				CF8EF6472B702E4D00915B8E /* Flute.mp3 */,
+				CFFA13D22B7AFEFA006D5B42 /* Game.mp3 */,
+			);
+			path = Melodies;
+			sourceTree = "<group>";
+		};
+		CF9E35DF2B70095B00DDAD76 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				CFFA13D42B7AFF19006D5B42 /* Indoor */,
+				CF8EF6462B702E4500915B8E /* Melodies */,
+				CF9E35E12B70096800DDAD76 /* Texture */,
+				CF9E35E02B70096100DDAD76 /* Nature */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		CF9E35E02B70096100DDAD76 /* Nature */ = {
+			isa = PBXGroup;
+			children = (
+				CFFA13E32B7AFFC0006D5B42 /* Crickets.mp3 */,
+				CFFA13E52B7B0019006D5B42 /* Nightscape.mp3 */,
+				CFFA13E12B7AFFA4006D5B42 /* Wind.mp3 */,
+				CF8EF65F2B702F6900915B8E /* EveningBirds.mp3 */,
+				CF8EF65D2B702F5800915B8E /* ForestRain.mp3 */,
+				CF8EF65B2B702F5300915B8E /* RunningWater.mp3 */,
+				CF8EF6552B702F0A00915B8E /* Birds.mp3 */,
+				CF8EF6532B702EFD00915B8E /* Forest.mp3 */,
+				CF8EF64F2B702ED600915B8E /* Farm.mp3 */,
+				CF8EF6442B702E2C00915B8E /* River.mp3 */,
+				CF8EF6422B702E2200915B8E /* Stream.mp3 */,
+				CF9E35DB2B70094900DDAD76 /* LightRain.mp3 */,
+			);
+			path = Nature;
+			sourceTree = "<group>";
+		};
+		CF9E35E12B70096800DDAD76 /* Texture */ = {
+			isa = PBXGroup;
+			children = (
+				CF8EF64D2B702EC500915B8E /* Space.mp3 */,
+				CF8EF64B2B702E8100915B8E /* Minor.mp3 */,
+				CF8EF6402B702E1000915B8E /* Dreaming.mp3 */,
+				CF9E35DC2B70094900DDAD76 /* Uplifting.mp3 */,
+			);
+			path = Texture;
+			sourceTree = "<group>";
+		};
 		CFDFD9F02B6E719900C8336E = {
 			isa = PBXGroup;
 			children = (
+				CF9E35DF2B70095B00DDAD76 /* Sound */,
 				CFDFD9FB2B6E719900C8336E /* Bedside Hub */,
 				CFDFDA0C2B6E719B00C8336E /* Bedside HubTests */,
 				CFDFDA162B6E719B00C8336E /* Bedside HubUITests */,
@@ -94,10 +234,23 @@
 		CFDFD9FB2B6E719900C8336E /* Bedside Hub */ = {
 			isa = PBXGroup;
 			children = (
-				CFDFD9FC2B6E719900C8336E /* Bedside_HubApp.swift */,
+				CF72341E2B8234DC00F47FC5 /* Bedside-Hub-Info.plist */,
+				CF8841AC2B6FF47500A55D6F /* ClockView.swift */,
+				CF334BB22B6F4231005A3B5C /* TimerManager.swift */,
 				CFDFD9FE2B6E719900C8336E /* ContentView.swift */,
+				CF72341C2B82324D00F47FC5 /* WeatherView.swift */,
+				CF72341A2B82320F00F47FC5 /* DateView.swift */,
+				CFDFDA262B6EA36400C8336E /* WeatherService.swift */,
+				CF334BB02B6F2F0A005A3B5C /* ImageManager.swift */,
+				CF1B9AEE2B6FBAB900A7585E /* SoundManager.swift */,
+				CF334BAA2B6F0945005A3B5C /* SettingsView.swift */,
+				CF8EF6612B703C9500915B8E /* SoundSelectionViewModel.swift */,
 				CFDFDA002B6E719B00C8336E /* Assets.xcassets */,
 				CFDFDA022B6E719B00C8336E /* Preview Content */,
+				CF334BAE2B6F1446005A3B5C /* SoundSelectionView.swift */,
+				CF334BAC2B6F0B65005A3B5C /* SettingsManager.swift */,
+				CFDFD9FC2B6E719900C8336E /* Bedside_HubApp.swift */,
+				CFDFDA282B6EB52B00C8336E /* WeatherConditionMapper.swift */,
 			);
 			path = "Bedside Hub";
 			sourceTree = "<group>";
@@ -127,6 +280,19 @@
 			path = "Bedside HubUITests";
 			sourceTree = "<group>";
 		};
+		CFFA13D42B7AFF19006D5B42 /* Indoor */ = {
+			isa = PBXGroup;
+			children = (
+				CFFA13D52B7AFF28006D5B42 /* City.mp3 */,
+				CFFA13D72B7AFF3E006D5B42 /* Cafe.mp3 */,
+				CFFA13D92B7AFF5E006D5B42 /* Office.mp3 */,
+				CFFA13DB2B7AFF6C006D5B42 /* Snoring.mp3 */,
+				CFFA13DD2B7AFF76006D5B42 /* AirConditioner.mp3 */,
+				CFFA13DF2B7AFF9B006D5B42 /* Fireplace.mp3 */,
+			);
+			path = Indoor;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +309,10 @@
 			dependencies = (
 			);
 			name = "Bedside Hub";
+			packageProductDependencies = (
+				CFDFDA2B2B6EBFC600C8336E /* OpenMeteoSdk */,
+				CFFA13D02B7AD70D006D5B42 /* Collections */,
+			);
 			productName = "Bedside Hub";
 			productReference = CFDFD9F92B6E719900C8336E /* Bedside Hub.app */;
 			productType = "com.apple.product-type.application";
@@ -191,7 +361,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
-				LastUpgradeCheck = 1520;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					CFDFD9F82B6E719900C8336E = {
 						CreatedOnToolsVersion = 15.2;
@@ -215,6 +385,10 @@
 				Base,
 			);
 			mainGroup = CFDFD9F02B6E719900C8336E;
+			packageReferences = (
+				CFDFDA2A2B6EBFC600C8336E /* XCRemoteSwiftPackageReference "sdk" */,
+				CFFA13CF2B7AD70D006D5B42 /* XCRemoteSwiftPackageReference "swift-collections" */,
+			);
 			productRefGroup = CFDFD9FA2B6E719900C8336E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,8 +405,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFFA13E62B7B0019006D5B42 /* Nightscape.mp3 in Resources */,
+				CF8EF6502B702ED600915B8E /* Farm.mp3 in Resources */,
+				CF8EF65A2B702F2B00915B8E /* Bells.mp3 in Resources */,
+				CF8EF6582B702F1800915B8E /* Piano2.mp3 in Resources */,
+				CF8EF6562B702F0A00915B8E /* Birds.mp3 in Resources */,
+				CFFA13DE2B7AFF76006D5B42 /* AirConditioner.mp3 in Resources */,
+				CFFA13DC2B7AFF6C006D5B42 /* Snoring.mp3 in Resources */,
+				CF8EF6522B702EE100915B8E /* Piano.mp3 in Resources */,
+				CF8EF6432B702E2200915B8E /* Stream.mp3 in Resources */,
+				CFFA13D32B7AFEFA006D5B42 /* Game.mp3 in Resources */,
+				CFFA13E02B7AFF9B006D5B42 /* Fireplace.mp3 in Resources */,
+				CF8EF6542B702EFD00915B8E /* Forest.mp3 in Resources */,
+				CF8EF64A2B702E5A00915B8E /* Chords.mp3 in Resources */,
+				CF8EF65E2B702F5800915B8E /* ForestRain.mp3 in Resources */,
+				CF8EF64C2B702E8100915B8E /* Minor.mp3 in Resources */,
+				CFFA13E42B7AFFC0006D5B42 /* Crickets.mp3 in Resources */,
 				CFDFDA042B6E719B00C8336E /* Preview Assets.xcassets in Resources */,
+				CF8EF65C2B702F5300915B8E /* RunningWater.mp3 in Resources */,
+				CFFA13E22B7AFFA4006D5B42 /* Wind.mp3 in Resources */,
+				CF8EF64E2B702EC500915B8E /* Space.mp3 in Resources */,
+				CF8EF6452B702E2C00915B8E /* River.mp3 in Resources */,
+				CF9E35DE2B70094900DDAD76 /* Uplifting.mp3 in Resources */,
+				CF9E35DD2B70094900DDAD76 /* LightRain.mp3 in Resources */,
+				CF8EF6412B702E1000915B8E /* Dreaming.mp3 in Resources */,
 				CFDFDA012B6E719B00C8336E /* Assets.xcassets in Resources */,
+				CFFA13D62B7AFF28006D5B42 /* City.mp3 in Resources */,
+				CFFA13DA2B7AFF5E006D5B42 /* Office.mp3 in Resources */,
+				CF8EF6602B702F6900915B8E /* EveningBirds.mp3 in Resources */,
+				CF8EF6482B702E4D00915B8E /* Flute.mp3 in Resources */,
+				CFFA13D82B7AFF3E006D5B42 /* Cafe.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +459,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF334BAB2B6F0945005A3B5C /* SettingsView.swift in Sources */,
+				CF72341B2B82320F00F47FC5 /* DateView.swift in Sources */,
+				CF334BAF2B6F1446005A3B5C /* SoundSelectionView.swift in Sources */,
 				CFDFD9FF2B6E719900C8336E /* ContentView.swift in Sources */,
+				CF8841AD2B6FF47500A55D6F /* ClockView.swift in Sources */,
+				CF72341D2B82324D00F47FC5 /* WeatherView.swift in Sources */,
+				CF334BB12B6F2F0A005A3B5C /* ImageManager.swift in Sources */,
+				CF334BAD2B6F0B65005A3B5C /* SettingsManager.swift in Sources */,
+				CFDFDA272B6EA36400C8336E /* WeatherService.swift in Sources */,
+				CF334BB32B6F4231005A3B5C /* TimerManager.swift in Sources */,
 				CFDFD9FD2B6E719900C8336E /* Bedside_HubApp.swift in Sources */,
+				CFDFDA292B6EB52B00C8336E /* WeatherConditionMapper.swift in Sources */,
+				CF1B9AEF2B6FBAB900A7585E /* SoundManager.swift in Sources */,
+				CF8EF6622B703C9500915B8E /* SoundSelectionViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +512,7 @@
 		CFDFDA1B2B6E719B00C8336E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -330,6 +545,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_PREVIEWS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -347,7 +563,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -355,12 +574,14 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		CFDFDA1C2B6E719B00C8336E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -394,6 +615,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
@@ -404,12 +626,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -419,16 +646,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Bedside Hub/Preview Content\"";
+				DEVELOPMENT_TEAM = 8GC3P6Q65X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "Bedside-Hub-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bedside Clock";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,9 +670,14 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "outwardlymild.Bedside-Hub";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -447,16 +686,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Bedside Hub/Preview Content\"";
+				DEVELOPMENT_TEAM = 8GC3P6Q65X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "Bedside-Hub-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bedside Clock";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,9 +710,14 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "outwardlymild.Bedside-Hub";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -478,10 +729,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "outwardlymild.Bedside-HubTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -497,10 +752,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "outwardlymild.Bedside-HubTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -518,6 +777,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "outwardlymild.Bedside-HubUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -535,6 +798,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "outwardlymild.Bedside-HubUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -582,6 +849,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CFDFDA2A2B6EBFC600C8336E /* XCRemoteSwiftPackageReference "sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/open-meteo/sdk.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.5.0;
+			};
+		};
+		CFFA13CF2B7AD70D006D5B42 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CFDFDA2B2B6EBFC600C8336E /* OpenMeteoSdk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFDFDA2A2B6EBFC600C8336E /* XCRemoteSwiftPackageReference "sdk" */;
+			productName = OpenMeteoSdk;
+		};
+		CFFA13D02B7AD70D006D5B42 /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFFA13CF2B7AD70D006D5B42 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CFDFD9F12B6E719900C8336E /* Project object */;
 }
